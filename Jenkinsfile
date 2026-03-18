@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_REPO = "ghosgy/runcalc-pro"
+        DOCKERHUB_REPO = "dre1lly/runcalc-pro"
         IMAGE_TAG = "v1.0.${BUILD_NUMBER}"
     }
 
